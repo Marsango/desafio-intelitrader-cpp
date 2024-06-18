@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1718738846 source:c:\users\pichau\desktop\challenges\minor_distance_between_arrays\main.cpp
+	<iostream>
+	<vector>
+	<limits.h>
+	<cmath>
+
+1718723218 source:c:\users\pichau\desktop\challenges\minor_distance_between_arrays\untitled1.c
+
