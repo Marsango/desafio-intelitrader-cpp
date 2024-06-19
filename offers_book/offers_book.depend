@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1718762231 source:c:\users\pichau\desktop\challenges\desafio-intelitrader-cpp\offers_book\main.cpp
+	<iostream>
+	<string>
+	<vector>
+
