@@ -31,8 +31,8 @@ class Offers{
             amounts.erase(amounts.begin() + position);
         }
         void print_book(){
+            cout << endl;
             for(int i = 0; i < values.size(); i++){
-                cout << endl;
                 cout << i + 1 << "," << values[i] << "," << amounts[i] << endl;
             }
         }

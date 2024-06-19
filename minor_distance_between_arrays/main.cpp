@@ -64,7 +64,6 @@ int binary_search_array(int start, int end_array, int array_y[], int array_y_siz
     int previous_value;
     int next_value;
     int final_value;
-    cout << "Start: " << start << " Middle " << middle << " End: " << end_array << endl;
     if (middle == 0){
         previous_value = INT_MAX;
         next_value = abs(reference_number - array_y[middle+1]);
@@ -130,11 +129,11 @@ int main()
     cin >> array_two_size;
     int array_one[array_one_size];
     int array_two[array_two_size];
-    cout << "Enter numbers of array 1: " << endl;
+    cout << "Enter numbers of array 1: (one per line)" << endl;
     for(int i = 0; i < array_one_size; i++){
         cin >> array_one[i];
     }
-    cout << "Enter numbers of array 2: " << endl;
+    cout << "Enter numbers of array 2: (one per line)" << endl;
     for(int i = 0; i < array_two_size; i++){
         cin >> array_two[i];
     }
